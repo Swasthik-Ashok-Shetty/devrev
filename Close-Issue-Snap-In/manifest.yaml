@@ -1,0 +1,36 @@
+version: '2'
+
+name: Snap-In for Closing Issue to Completed Stage
+description: Snap In For Changing Issue Stage from current stage to Completed Stage 
+
+service_account:
+  display_name: "DevRev Bot"
+
+event_sources:
+  organization:
+    - name: devrev-webhook
+      display_name: DevRev
+      type: devrev-webhook
+      config:
+        event_types:
+          - work_created
+        filter:
+          jq_query: |
+            if (.work_created.work.type == "issue") then true
+            else false
+            end  
+
+functions:
+  - name: function_to_Complete_issue
+    description: Function to update the stage of the Issue to Completed Stage using slash command.
+
+commands:
+  - name: close
+    namespace: devrev
+    description: Closes the issue and all of its children issues.
+    surfaces:
+      - surface: discussions
+        object_types:
+          - issue
+    usage_hint: "Close the issue"
+    function: function_to_Complete_issue
