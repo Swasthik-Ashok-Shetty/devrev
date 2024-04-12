@@ -2,7 +2,7 @@
 #### This repository conatains the Snap_In Development Assignment following each steps mentioned.
 
 ## Step 1 : Utilizing the DevRev API to Create work item
-#### The code for the creation of a work item using the DevRev API is present in `Work-Item_Using-DevRev-API` repository.
+#### The code for the creation of a work item using the DevRev API is present in [Work-Item_Using-DevRev-API](https://github.com/Swasthik-Ashok-Shetty/devrev/tree/main/Work-Item_Using-DevRev-API) repository.
 
 ## Step 2 : Creating a Snap-in
 #### The creation of the snap-in according to problem statement mentioned is implemented.
