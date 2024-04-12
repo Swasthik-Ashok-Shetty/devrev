@@ -12,8 +12,11 @@ npm i @devrev/typescript-sdk
 ```
 
 ## Getting started with the template
- 1. Create a new repository from this template.
- 2. In the new repository, you can add functions at path `src/functions` where the folder name corresponds to the function name in your manifest file.
+  1. Create a new repository from this command.
+```
+devrev snap_in_version init
+```
+2. In the new folder, "devrev-snaps-typescript-template" you can add more functions at path `src/functions` where the folder name corresponds to the function name in your manifest file.
  3. Each function you add will also need to be mentioned in `src/function-factory.ts` .
 
 ## Testing locally
