@@ -6,7 +6,7 @@
 
 ## Step 2 : Creating a Snap-in
 #### The creation of the snap-in according to problem statement mentioned is implemented.
-#### 1. Code for the "hello world" snap-in is under `Hello-World-Snap-In` repository along with demonstration.
+#### 1. Code for the "hello world" snap-in is under [Hello-World-Snap-In](https://github.com/Swasthik-Ashok-Shetty/devrev/tree/main/Hello-World-Snap-In) repository along with demonstration.
 #### 2. Code for one of the problem statement mentioned for Snap-In challenge is under `Close-Issue-Snap-In` repository along with demonstration. 
 
 ## Problem Statement Implemented under `Close-Issue-Snap-In` repository:
