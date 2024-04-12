@@ -1,7 +1,8 @@
 # Code snippet demonstrating the creation of a work item (Issue) using the DevRev API.
 
  #### First task of Devrev placement assignment to utilize the DevRev API to create a work item (issue) using Python.
-
+## Demonstration of Work-Item Creation Using DevRev-API
+[Work Item (Ticket) Creation Using DevRev-API video](https://drive.google.com/file/d/1X9AtTy2jjHYLbUfNGY16rFWVrOBTz4bf/view?usp=sharing)
  ## Requirements
   1. Create `.env` file containing Personal Access Token (PAT) such as,
  ```
