@@ -1,7 +1,8 @@
 # Devrev placement Problem Statement 4: Snap-In For Command to close an issue, that is, move it to the Completed Stage
 
 #### This repository contains a template for the function that can be deployed as part of Snap-Ins for Changing the Issue Stage From Current Issue Stage to Completed Stage.
-
+## Demonstration of Installation and execution Close-Issue Snap-In
+[Close-Issue Snap-In Video](https://drive.google.com/file/d/1X9AtTy2jjHYLbUfNGY16rFWVrOBTz4bf/view?usp=sharing)
 ## Installation and Requirements for Snap-In Creation
  1. Create organisation in [Dev-org](https://app.devrev.ai/) in Devrev.ai 
  2. Download and Install [Devrev CLI](https://developer.devrev.ai/snap-in-development/references/install-dev-rev-cli).
