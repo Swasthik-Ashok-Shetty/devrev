@@ -1,7 +1,8 @@
 # DevRev Snaps TypeScript Template For Hello World Display
 
 #### This repository contains a template for the functions for Displaying Hello World Comment while work-item creation as part of Snap-Ins.
-
+## Demonstration of Hello World Comment on Work Item Creation
+[Hello World Comment Video](https://drive.google.com/file/d/11IfEIwkLOvggf5k-lNVdIg5dN1Jni3NL/view?usp=sharing)
 ## Installation and Requirements for Snap-In Creation
  1. Create organisation in [Dev-org](https://app.devrev.ai/) in Devrev.ai 
  2. Download and Install [Devrev CLI](https://developer.devrev.ai/snap-in-development/references/install-dev-rev-cli).
