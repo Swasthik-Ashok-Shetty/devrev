@@ -3,11 +3,11 @@
  #### First task of Devrev placement assignment to utilize the DevRev API to create a work item (issue) using Python.
 
  ## Requirements
- #### 1. Create `.env` file containing Personal Access Token (PAT) such as,
+  1. Create `.env` file containing Personal Access Token (PAT) such as,
  ```
  PAT="Your Personal Access Token"
  ```
- #### 2. Install dotenv using following command,
+  2. Install dotenv using following command,
  ```
  pip install dotenv
  ```
